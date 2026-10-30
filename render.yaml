@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: nss-unit-09-tshirt
+    env: node
+    plan: free
+    buildCommand: echo "Native Node 22 project - no external npm packages required"
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
+      - key: UNIT_PRICE_PAISE
+        value: 38507
+      - key: TOTAL_STOCK_LIMIT
+        value: 50
+      - key: RESERVATION_MINUTES
+        value: 10
+      - key: UPI_ID
+        value: 9491663928@ybl
+      - key: UPI_NAME
+        value: NSS Unit 09
+      - key: OWNER_ADMIN_EMAIL
+        value: owner@example.com
+      - key: OWNER_ADMIN_PASSWORD
+        value: AdminSecurePassword123!

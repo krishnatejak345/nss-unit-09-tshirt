@@ -1,0 +1,20 @@
+{
+  "name": "nss-unit-09-tshirt-portal",
+  "version": "1.0.0",
+  "description": "NSS Unit 09 T-Shirt Registration & Razorpay Payment Portal with Strict Stock and Google Sheets Sync",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/test_suite.js && node tests/api_integration_test.js"
+  },
+  "keywords": [
+    "nss",
+    "tshirt-registration",
+    "razorpay",
+    "google-sheets",
+    "stock-management"
+  ],
+  "author": "NSS Unit 09",
+  "license": "ISC"
+}
